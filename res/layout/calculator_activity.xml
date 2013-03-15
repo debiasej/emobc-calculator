@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:id="@+id/sideMenuLayout"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#000000"
+	    android:cacheColorHint="#999999"
+	    android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/MenuHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" />    
+
+         <ListView
+             android:id="@+id/sideMenuList"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1.21"
+             android:background="#000000"
+             android:cacheColorHint="#999999"
+             android:visibility="visible" >
+
+        </ListView>
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/backgroundLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/topLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+        	<TextView
+        	    android:id="@+id/header"
+        	    android:layout_width="fill_parent"
+        	    android:layout_height="45dip"
+        	    android:gravity="center_vertical|center_horizontal"
+        	    android:scaleType="fitXY"
+        	    android:text="Calculadora"
+        	    android:textColor="#e372f4"
+        	    android:textSize="25dp" >
+
+            </TextView>
+
+	        
+            <LinearLayout
+                android:id="@+id/descr_mas"
+                android:layout_width="fill_parent"
+                android:layout_height="34dip"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" >
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="145dp"
+                android:text="Resultado"
+                android:textColor="#2dbff6"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/descr_mas"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="72dp"
+                android:text="click para =" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+	<title/>
+	<backgroundFileName>images/cover/backgroundCover.png</backgroundFileName>
+	<titleFileName>images/cover/imageCover.png</titleFileName>
+	<www></www>
+	<buttons>
+	<button>
+		<buttonTitle>Acceso a la calculadora</buttonTitle>
+		<nextLevel>
+			<nextLevelLevelId>calc</nextLevelLevelId>
+			<nextLevelDataId>calc</nextLevelDataId> 
+		</nextLevel>
+		<buttonFileName></buttonFileName>
+	</button>
+	</buttons>
+</level>

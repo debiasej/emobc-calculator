@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <title>Calculadora de Mario</title>
+  <coverFileName>portada.xml</coverFileName>
+ <entryPoint>
+    <pointLevelId/>
+    <pointDataId/>
+  </entryPoint>
+  <menu>
+  	<topMenu></topMenu>
+    <bottomMenu/>
+  </menu>
+  <!-- <banner>
+    <type>yoc</type>
+    <position/>
+    <id/>
+  </banner>-->
+  <levels>
+		<level>
+		    <levelId>calc</levelId>
+			<levelTitle>calculadora</levelTitle>
+			<levelFile>calc.xml</levelFile>
+			<levelType>CALCULATOR_ACTIVITY</levelType>
+			<levelXib/>
+			<levelTransition>None</levelTransition>
+		</level>
+	</levels>
+</application>

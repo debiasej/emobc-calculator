@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="week_top_margin">37px</dimen>
+	<dimen name="week_left_margin">60px</dimen>
+	<dimen name="cell_width">29px</dimen>
+	<dimen name="cell_heigh">26.5px</dimen>
+	<dimen name="cell_margin_top">46px</dimen>
+	<dimen name="cell_margin_left">19.5px</dimen>
+	<dimen name="cell_text_size">13.0px</dimen>
+	<dimen name="padding_large">16dp</dimen>
+	<dimen name="padding_medium">16dp</dimen>
+	<dimen name="padding_small">8dp</dimen>
+    <!-- Menu Dimmensions -->
+    <dimen name="menu_height">30px</dimen>	
+    <dimen name="menu_width">30px</dimen>	
+    
+    <!-- Top Menu Heigth para Renta -->
+    <dimen name="renta_top_menu_height">30px</dimen>	
+    
+</resources>
